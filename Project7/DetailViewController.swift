@@ -30,6 +30,7 @@ class DetailViewController: UIViewController {
         <style> body { font-size: 150%; } </style>
         </head>
         <body>
+        <h3>\(detailItem.title)</h3>
         \(detailItem.body)
         </body>
         </html>
